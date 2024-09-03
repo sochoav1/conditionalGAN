@@ -1,0 +1,11 @@
+data_path_G: 'C:\Users\Santiago\Desktop\conditionalGAN\data\vc\confocal_exper_altogether_trainG_256.npz'
+data_path_R: 'C:\Users\Santiago\Desktop\conditionalGAN\data\vc\confocal_exper_altogether_trainR_256.npz'
+batch_size: 64
+num_workers: 4
+condition_dim: 3
+num_channels: 3
+lr: 0.0002
+beta1: 0.5
+num_epochs: 200
+lambda_l1: 100
+save_interval: 10
